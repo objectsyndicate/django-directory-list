@@ -1,0 +1,19 @@
+{% extends "site_base.html" %}
+
+{% load i18n %}
+
+{% block head_title %}{% trans "List" %}{% endblock %}
+
+{% block body %}
+    {% blocktrans %}
+	<center>
+
+{% for f in dirlist reversed %}
+<a href="http://path/to/media{{ f }}"> <h1>{{ f }}</h1></a>
+{% endfor %}
+
+
+	</center>
+	
+	
+{% endblock %}
