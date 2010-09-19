@@ -14,3 +14,7 @@ the for loop.
 3. Add the directory\_list application to your INSTALLED\_APPS
 4. Edit the _views.py_ and set the path you want displayed
 5. Move the template into place and configure the URLs
+
+## Special Thanks:
+Thanks to David Reynolds, without him this project would never have been this
+elegant.
